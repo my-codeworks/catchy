@@ -2,8 +2,8 @@
 
 catchy: Instantly appealing and memorable, a gem to capture chains of method calls.
 
-[![Build Status](https://travis-ci.org/my-codeworks/catchy.png)](https://travis-ci.org/my-codeworks/catchy)
 [![Gem Version](https://badge.fury.io/rb/catchy.png)](http://badge.fury.io/rb/catchy)
+[![Build Status](https://travis-ci.org/my-codeworks/catchy.png)](https://travis-ci.org/my-codeworks/catchy)
 [![Code Climate](https://codeclimate.com/github/my-codeworks/catchy.png)](https://codeclimate.com/github/my-codeworks/catchy)
 
 ## Installation
