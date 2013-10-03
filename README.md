@@ -1,6 +1,6 @@
 # Catchy
 
-This is a simple gem to capture chains of method calls.
+catchy: Instantly appealing and memorable, a gem to capture chains of method calls.
 
 [![Build Status](https://travis-ci.org/my-codeworks/catchy.png)](https://travis-ci.org/my-codeworks/catchy)
 [![Gem Version](https://badge.fury.io/rb/catchy.png)](http://badge.fury.io/rb/catchy)
@@ -10,7 +10,7 @@ This is a simple gem to capture chains of method calls.
 
 Add this line to your application's Gemfile:
 
-    gem 'method_chain_proxy'
+    gem 'catchy'
 
 And then execute:
 
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install method_chain_proxy
+    $ gem install catchy
 
 ## Usage
 
