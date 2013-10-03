@@ -51,4 +51,4 @@ Then you can
 
 ## Special thanks
 
-To Hüseyin Öztürk for suggesting the name. Originally the gem was called MethodChainProxy, but mr Öztürk found it less than sexy and suggested: "something funny and relevant, catchy ..." so there we where, Catchy. Exellent work!
+To [Hüseyin Öztürk](https://github.com/hsyn) for suggesting the name. Originally the gem was called MethodChainProxy, but mr Öztürk found it less than sexy and suggested: "something funny and relevant, catchy ..." so there we where, Catchy. Exellent work!
