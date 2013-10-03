@@ -1,3 +1,3 @@
-class Catchy
-  VERSION = "0.0.1"
+module Catchy
+  VERSION = "0.1.0"
 end

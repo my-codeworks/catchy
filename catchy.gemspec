@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Catchy::VERSION
   spec.authors       = ["Jonas Schubert Erlandsson"]
   spec.email         = ["jonas.schubert.erlandsson@my-codeworks.com"]
-  spec.description   = "Allows you to create an object that captures any chain of methods called on it and displays them when turned intor a string."
+  spec.description   = "Allows you to create an object that captures any chain of methods called on it and then displays them when turned into a string."
   spec.summary       = "Ruby gem to capture chains of method calls."
   spec.homepage      = "https://github.com/my-codeworks/catchy"
   spec.license       = "MIT"

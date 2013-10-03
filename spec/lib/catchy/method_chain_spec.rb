@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'catchy'
+require 'catchy/method_chain'
 
-describe Catchy do
+describe Catchy::MethodChain do
 
   context "basic use" do
     describe "initialization" do
@@ -11,7 +11,7 @@ describe Catchy do
 
     describe "returns a method chain proxy when called" do
       subject { Catchy.new().whatever.class }
-      it { should == Catchy }
+      it { should == Catchy::MethodChain }
     end
 
     describe "to_s yields chained calls" do
