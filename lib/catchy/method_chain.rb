@@ -1,8 +1,8 @@
 class Catchy::MethodChain
 
   def initialize( options = {} )
-    options = Catchy::DEFAULT_OPTIONS.merge( options )
-    define_accessors( options )
+    configure( options )
+    define_methods
     @method_chain = []
   end
 
@@ -13,14 +13,21 @@ class Catchy::MethodChain
 
 private
 
-  def define_accessors( options )
-    define_to_string_as( options[:to_s] )
+  def configure( options )
+    return if options.empty?
+    Catchy.configure do |config| 
+      options.each do |name, value|
+        config.send("#{name}=", value)
+      end
+    end
   end
 
-  def define_to_string_as( to_s_name )
-    self.class.send( :define_method, to_s_name ) do
-      @method_chain.join('.')  
-    end
+  def define_method( name, &block)
+    self.class.send( :define_method, name, &block )
+  end
+
+  def define_methods
+    define_method( Catchy.configuration.to_s ){ @method_chain.join('.') }
   end
 
 end

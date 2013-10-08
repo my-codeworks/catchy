@@ -39,7 +39,21 @@ Then you can get the chain of called methods as a string:
 
     proxy = Catchy.new(to_s: :__to_string__)
 
-Then you can 
+or with a config block, handy for a Rails initializer or similar, like this:
+
+    # config/initializers/catchy.rb
+    Catchy.configure do |config|
+      config.to_s = :__to_string__
+    end
+
+    # app/whatever/class.rb
+    proxy = Catchy.new
+
+Then you can use it like this:
+
+    proxy.call.whatever.you.want.to_s
+    ...
+    proxy.__to_string__
 
 ## Contributing
 
